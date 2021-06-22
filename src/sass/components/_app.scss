@@ -1,0 +1,106 @@
+html {
+  font-size: 62.5%; // will work when user change browser font
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: white;
+}
+
+.app {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  background: black;
+  position: relative;
+  padding: 2rem;
+  margin-top: 10%;
+}
+
+.app__timer {
+  font-size: 8rem;
+  display: inline-block;
+  margin-bottom: 10rem;
+  margin-top: 16.2rem;
+}
+
+.app__controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.app__controls > * {
+  border-radius: 100%;
+  opacity: 0.5;
+  width: 8rem;
+  height: 8rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  border: 0.2rem solid #353535;
+  background-color: #353535;
+  box-shadow: inset 0 0 0 2px #0f0f0f;
+  color: #ccc;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 76px;
+}
+
+.app__controls__start {
+  background-color: #182E1C;
+  border-color: #182E1C;
+  color: #42CC57;
+}
+
+.running {
+  background-color: #351614;
+  border-color: #351614;
+  color: #FF352C;
+}
+
+.app__laps {
+  padding: 0;
+  max-height: 20rem;
+  overflow: scroll;
+  scrollbar-width: none;
+
+}
+
+.app__laps::-webkit-scrollbar {
+  display: none;
+}
+
+.app__lap {
+  padding: 1.6rem 0 0.8rem 0;
+  border-top: 0.1rem solid #333;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app__lap-value {
+  background: none;
+  color: white;
+  text-align: right;
+  border: none;
+  font-weight: 300;
+}
+
+.app__lap-value:focus, t .app__lap-value:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//.app__timer,.app__laps {
+//  border: 1px solid red;
+//}
