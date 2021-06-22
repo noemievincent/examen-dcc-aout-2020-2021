@@ -37,7 +37,7 @@ Il s'agit simplement de recopier dans la liste `.app__laps` un nouvel item respe
 ```html
 <li class="app__lap">
  <span class="app__lap-count">Tour n</span>
- <time class="app__lap-value" datatype="XX:YY:ZZ$">XX:YY:ZZ</time>
+ <time class="app__lap-value" datatype="XX:YY:ZZ">XX:YY:ZZ</time>
 </li>
 ```
 Le `n` représente le nombre de tours enregistré. `XX` représente les minutes, `YY` les secondes et `ZZ` les millisecondes.
@@ -55,7 +55,7 @@ Quand le chronomètre est arrêté, le bouton `.app__controls__start` affiche `D
 ### Remettre à zéro le chronomètre
 
 ![Remettre à zéro le chronomètre](./img/reset.gif)
-Quand le chronomètre est arrêté, le bouton des tours affiche `Effacer` au clic cela supprime tous les items dans la liste `.app__laps` et remet le chronomètre à zéros. Le bouton `.app__controls__start` affiche `Démarrer` et le bouton `.app__controls__lap` affiche `Tour`.
+Quand le chronomètre est arrêté, le bouton des tours affiche `Effacer` au clic cela supprime tous les *items* dans la liste `.app__laps` et remet le chronomètre à zéros. Le bouton `.app__controls__start` affiche `Démarrer` et le bouton `.app__controls__lap` affiche `Tour`.
 
 ## Contraintes techniques
 
