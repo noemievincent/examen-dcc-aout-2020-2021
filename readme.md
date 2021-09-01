@@ -12,9 +12,9 @@ Dans le cadre de cet examen, nous vous demandons de reproduire  une version Java
 
 ## Identification des éléments d’interface
 
-Dans la capture d’écrans ci-dessous, vous pouvez voir l’application avec les noms de classe des différents éléments que vous devez manipuler.
+Dans la capture d’écrans ci-dessous, vous pouvez voir l’application avec ses noms de classes, correspondant aux différents éléments que vous devez manipuler.
 
-![Nom des classes des éléments HTML](./img/classNames.png)
+![Les noms des classes des éléments HTML](./img/classNames.png)
 
 ## Les fonctionnalités
 
@@ -24,7 +24,7 @@ Dans la capture d’écrans ci-dessous, vous pouvez voir l’application avec le
 
 Pour démarrer le chronomètre, il faut lancer une fonction qui s'exécutera toutes les 10 millisecondes au clic sur le bouton `.app__controls__start`. Cette fonction met à jour le temps écoulé, composé de *millisecondes*, *secondes* et *minutes*. Vous incrémentez, toutes les 10 millisecondes, l'unité des millisecondes. Quand on atteint 100 (soit 1000 millisecondes) il faut incrémenter les secondes d'une unité. Quand on atteint les 60 secondes, il faut incrémenter les minutes de 1. Nous ne considérons pas le cas où les minutes dépassent 99.
 
-Remarquez tout de même que vous devez préfixer les chiffres inférieurs à 10 d'un `0`. Ainsi 6 secondes s’écrivent `06`.
+Remarquez, tout de même, que vous devez préfixer les chiffres inférieurs à 10 d'un `0`. Ainsi 6 secondes s’écrivent `06`.
 
 ![Ajouter des zéros pour les nombres inférieurs à 10](./img/seconds.png)
 
