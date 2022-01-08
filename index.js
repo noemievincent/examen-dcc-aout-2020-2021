@@ -50,7 +50,7 @@ eLapBtn.addEventListener('click', () => {
         eLapsList.insertAdjacentHTML("beforeend",
             `<li class="app__lap">
               <span class="app__lap-count">Tour ${iLaps}</span>
-              <time class="app__lap-value" datatype="XX:YY:ZZ">${iMinutes}:${iSeconds}:${iMilliseconds}</time>
+              <time class="app__lap-value" datatype="XX:YY:ZZ">${doubleO(iMinutes)}:${doubleO(iSeconds)}:${doubleO(iMilliseconds)}</time>
               </li>`);
         iLaps++;
     }
